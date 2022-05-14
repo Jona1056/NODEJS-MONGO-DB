@@ -1,5 +1,6 @@
 #enviroments variable
 .env
+#modulos
 node_modules
 #build folder
 .dist
