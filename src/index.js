@@ -1,3 +1,6 @@
-import app from "./app";
-app.listen(3000);
-console.log("Server on port ", 3000);
+import app from "./app"; //importamos la variable app desde la clase app
+import "./database";
+import {PORT} from "./config"
+
+app.listen(PORT);
+console.log("Server on port ", PORT); //ejecutamos el servidor
